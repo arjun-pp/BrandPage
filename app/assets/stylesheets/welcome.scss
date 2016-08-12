@@ -1,0 +1,54 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@font-face {
+    font-family: logo;
+    src: url(baloo.ttf);
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: white;
+    overflow: hidden;
+
+	.small-logo{
+	    position: absolute;
+	    margin-top: 20px;
+	    margin-left: 20px;
+		
+    	font-size: 1em;
+    	.logo-secondary-color{
+    	}
+	}
+	
+	.logo-wrapper{
+	    position: fixed;
+	    left: 50%;
+	    top: 48%;
+	    margin-left: -300px;
+	    margin-top: -150px;	
+	    
+	    text-align: center;
+
+		.logo{
+			font-family: logo;
+    		font-size: 10em;
+			
+	    	.logo-color{
+	    		color: #8BD834;
+	    	}
+	    	.grey-color{
+	    		color: #000;
+	    		margin-left: -20px;
+	    		letter-spacing: 7px;
+	    	}
+
+		}
+
+		.coming-soon{
+			font-family: helvetica;
+			font-size: 1em;
+		}
+	}
+}
